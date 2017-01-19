@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE1F2B601E2F182F00BA5808"
-               BuildableName = "BossClientiOS.framework"
+               BlueprintIdentifier = "EE31840A1E30596C00C7BF00"
+               BuildableName = "BossClientiOS.app"
                BlueprintName = "BossClientiOS"
                ReferencedContainer = "container:BossClientiOS.xcodeproj">
             </BuildableReference>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EE31840A1E30596C00C7BF00"
+            BuildableName = "BossClientiOS.app"
+            BlueprintName = "BossClientiOS"
+            ReferencedContainer = "container:BossClientiOS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE1F2B601E2F182F00BA5808"
-            BuildableName = "BossClientiOS.framework"
+            BlueprintIdentifier = "EE31840A1E30596C00C7BF00"
+            BuildableName = "BossClientiOS.app"
             BlueprintName = "BossClientiOS"
             ReferencedContainer = "container:BossClientiOS.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE1F2B601E2F182F00BA5808"
-            BuildableName = "BossClientiOS.framework"
+            BlueprintIdentifier = "EE31840A1E30596C00C7BF00"
+            BuildableName = "BossClientiOS.app"
             BlueprintName = "BossClientiOS"
             ReferencedContainer = "container:BossClientiOS.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
