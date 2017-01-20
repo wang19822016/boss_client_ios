@@ -12,6 +12,8 @@
 		EE3184141E30596C00C7BF00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3184121E30596C00C7BF00 /* Main.storyboard */; };
 		EE3184161E30596C00C7BF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3184151E30596C00C7BF00 /* Assets.xcassets */; };
 		EE3184191E30596C00C7BF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3184171E30596C00C7BF00 /* LaunchScreen.storyboard */; };
+		EE3184231E306A8200C7BF00 /* database.sql in Resources */ = {isa = PBXBuildFile; fileRef = EE3184221E306A8200C7BF00 /* database.sql */; };
+		EE3184251E30961300C7BF00 /* NetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3184241E30961300C7BF00 /* NetWorking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EE3184151E30596C00C7BF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE3184181E30596C00C7BF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE31841A1E30596C00C7BF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3184221E306A8200C7BF00 /* database.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = database.sql; sourceTree = "<group>"; };
+		EE3184241E30961300C7BF00 /* NetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		EE31840D1E30596C00C7BF00 /* BossClientiOS */ = {
 			isa = PBXGroup;
 			children = (
+				EE3184221E306A8200C7BF00 /* database.sql */,
 				EE31840E1E30596C00C7BF00 /* AppDelegate.swift */,
 				EE3184101E30596C00C7BF00 /* ViewController.swift */,
+				EE3184241E30961300C7BF00 /* NetWorking.swift */,
 				EE3184121E30596C00C7BF00 /* Main.storyboard */,
 				EE3184151E30596C00C7BF00 /* Assets.xcassets */,
 				EE3184171E30596C00C7BF00 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 				EE3184191E30596C00C7BF00 /* LaunchScreen.storyboard in Resources */,
 				EE3184161E30596C00C7BF00 /* Assets.xcassets in Resources */,
 				EE3184141E30596C00C7BF00 /* Main.storyboard in Resources */,
+				EE3184231E306A8200C7BF00 /* database.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			files = (
 				EE3184111E30596C00C7BF00 /* ViewController.swift in Sources */,
 				EE31840F1E30596C00C7BF00 /* AppDelegate.swift in Sources */,
+				EE3184251E30961300C7BF00 /* NetWorking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
