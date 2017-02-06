@@ -13,7 +13,7 @@ class NetWorking: NSObject{
     static let current = NetWorking();
     
     func post(dic:[String:Any],urlStr:String){
-        
+        print(dic);
         let postData = try? JSONSerialization.data(withJSONObject: dic, options: .prettyPrinted);
         let url = URL(string: urlStr);
         var request = URLRequest(url: url!);
@@ -25,9 +25,9 @@ class NetWorking: NSObject{
         
         let session = URLSession.shared;
         let task = session.dataTask(with: request) { (data, response, error) in
-            print(data ?? NSData());
+//            print(data ?? NSData());
             print(response ?? URLResponse());
-            print(error ?? Error.self);
+//            print(error ?? Error.self);
         };
         task.resume();
         
